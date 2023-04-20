@@ -2,7 +2,8 @@
 /**
  * main- prints 'with proper grammar, but the outcome is a piece of art,'
  * returns 0 if exited properly, non-zero if otherwise
- * */
+ *
+ */
 
 int main(void)
 	{
