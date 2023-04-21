@@ -11,7 +11,7 @@ int main(void)
 {
 	char lcase = 'z';
 
-	while (lcase <= 'a')
+	while (lcase >= 'a')
 	{
 		putchar(lcase);
 		lcase--;
