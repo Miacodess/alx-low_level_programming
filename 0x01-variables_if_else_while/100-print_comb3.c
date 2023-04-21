@@ -19,9 +19,9 @@ int main(void)
 		{
 			if (num1 != num && num1 < num)
 			{
-				putchar('0' + d);
-				putchar('0' + c);
-				if (c + d != 17)
+				putchar('0' + num1);
+				putchar('0' + num);
+				if (num + num1 != 17)
 				{
 					putchar(',');
 					putchar(' ');
