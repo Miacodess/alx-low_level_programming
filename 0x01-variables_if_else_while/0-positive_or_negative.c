@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
  * main - main block
- * Description: Assigns a random number to the variable n each time it runs
+ * Description: Assign a number and check its last digit, compare with 0
  *
  *Return: Always 0 (success)
  */
