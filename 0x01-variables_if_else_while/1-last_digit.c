@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
  * main - main block
- * Description: Assign a number and check its last digit with 5
+ * Description: Assign a number and check its last digit, compare with 5
  * Return: 0
  */
 int main(void)
@@ -20,7 +20,7 @@ int main(void)
 	else if (n5 == 0)
 		printf("Last digit of %i is %i and is 0\n", n, n5);
 	else if (n5 < 6)
-		printf("Last digit of %i is %i is less than 6 and not 0\n", n, n5);
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, n5);
 	return (0);
 }
 
