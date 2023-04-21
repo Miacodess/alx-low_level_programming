@@ -7,10 +7,12 @@
 
 int main(void)
 {
-	char lcase;
-	for(lcase = 'z'; lcase <= 'a'; lcase--)
+	char lcase = 'z';
+
+	while (lcase <= 'a')
 	{
 		putchar(lcase);
+		lcase--;
 	}
 	putchar('\n');
 	return (0);
