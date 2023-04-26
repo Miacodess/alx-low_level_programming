@@ -2,11 +2,11 @@
 
 /**
  * _isalpha - checks for alphabetic character
- *@f : character to check
- * Returns: 0 or 1
+ *@c : character to check
+ * Return: 0 or 1
  */
 
-int _isalpha(int f)
+int _isalpha(int c)
 {
-	return ((f >= 97 && <= 122 || f >= 65 && f <= 90));
+	return ((c >= 97 && <= 122 || c >= 65 && c <= 90));
 }
