@@ -3,13 +3,13 @@
 
 /**
  * print_to_98 - prints to 98
- * @m: number to start from
+ * @n: number to start from
  * Return: 0 or 1
  */
 
-void print_to_98(int m)
+void print_to_98(int n)
 {
-	while (m < 98)
+	while (n < 98)
 	{
 		printf("%i, "' n);
 		n++;
