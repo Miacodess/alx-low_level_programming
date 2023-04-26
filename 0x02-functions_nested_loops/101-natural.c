@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (mul35 % 3 == 0 || mul35 % 5 == 0)
 		{
-			summul += c;
+			summul += mul35;
 		}
 		mul35++;
 	}
