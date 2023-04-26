@@ -6,16 +6,16 @@
  */
 
 void print_times_table(int m)
-{       
+{
         int i = 0, times, j;
         
-        if (m < 0 || m > 15)
-                return;
+	if (m < 0 || m > 15)
+       	 return;
         
         while (i <= m)
-        {       
+        {
                 for (j = 0; j <= m; j++)
-                {       
+                {
                         times = i * j;
                         if (j == 0)
                                 _putchar('0' + times);
