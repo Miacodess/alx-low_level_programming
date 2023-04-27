@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_diagonal - draw a diagonal line on terminal
- * @n: number of thimes character "\\\\" is printed
+ * @n: number of thimes character "\\" is printed
  * Return: 0 (Success)
  */
 
@@ -19,7 +19,7 @@ void print_diagonal(int n)
 			_putchar(' ');
 			j++;
 		}
-		_putchar("\\\\");
+		_putchar("\\");
 		_putchar('\n');
 
 		i++
