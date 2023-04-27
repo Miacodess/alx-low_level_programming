@@ -16,6 +16,6 @@ int main(void)
 			x /= pf;
 		}
 	}
-	printf("%d\n", pf);
+	printf("%ld\n", pf);
 	return (0);
 }
