@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
  * puts_half - prints half of a string, then a new line
  * @str: pointer to the string
@@ -13,10 +13,10 @@ void puts_half(char *str)
 
 	if (n % 2 == 0)
 	{
-		_putchar("%.*s\n", n / 2, str + length / 2);
+		printf("%.*s\n", n / 2, str + n / 2);
 	}
 	else
 	{
-		_putchar("%.*s\n", (n - 1) / 2, str + (n + 1) / 2);
+		printf("%.*s\n", (n - 1) / 2, str + (n + 1) / 2);
 	}
 }
