@@ -6,7 +6,7 @@
  * @dest: char
  * @src: char
  *
- * Return: 0 (Success)
+ * Return: char
  */
 char *_strcat(char *dest, char *src)
 {
