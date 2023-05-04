@@ -5,7 +5,7 @@
  * rot13 - encodes a string using ROT13
  * @s: string to encode
  *
- * Return: 0 (Success)
+ * Return: the string
  */
 
 char *rot13(char *s)
