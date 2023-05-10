@@ -1,5 +1,5 @@
 #include "main.h"
-int _sqrt(int n, int i);
+int _sqrt(int, int);
 /**
  * _sqrt_recursion - _sqrt_recursion
  * @n: integer parameter

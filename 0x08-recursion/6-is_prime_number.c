@@ -2,7 +2,7 @@
 
 int prime_num(int i, int n);
 /**
- * prime_num -check for prime number
+ * prime_num - check for prime number
  * @n: integer parameter
  * @i: integer parameter
  * Return: boolean
@@ -10,7 +10,7 @@ int prime_num(int i, int n);
 
 int prime_num(int i, int n)
 {
-	if (n % 1 == 0)
+	if (n % i == 0)
 	{
 		return (0);
 	}
