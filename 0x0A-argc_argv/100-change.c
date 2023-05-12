@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 {
 	int change, c;
 
-	change = 0;
+	c = 0;
 
 	if (argc != 2)
 	{
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 	change = atoi(argv[1]);
 	if (change < 0)
 	{
-		printf("%d\n", change);
+		printf("%d\n", 0);
 		return (0);
 	}
 	if (change % 25 >= 0)
