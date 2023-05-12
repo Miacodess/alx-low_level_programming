@@ -14,7 +14,7 @@
 
 int main(int argc, char *argv[])
 {
-	int change, c;
+	int chan, c;
 
 	c = 0;
 
@@ -23,30 +23,30 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	change = atoi(argv[1]);
-	if (change < 0)
+	chan = atoi(argv[1]);
+	if (chan < 0)
 	{
 		printf("%d\n", 0);
 		return (0);
 	}
-	if (change % 25 >= 0)
+	if (chan % 25 >= 0)
 	{
-		c += change / 25;
-		change = change % 25;
+		c += chan / 25;
+		chan = chan % 25;
 	}
-	if (change % 10 >= 0)
+	if (chan % 10 >= 0)
 	{
-		c += change / 10;
-		change = change % 10;
+		c += chan / 10;
+		chan = chan % 10;
 	}
-	if (change % 2 >= 0)
+	if (chan % 2 >= 0)
 	{
-		c += change / 2;
-		change = change % 2;
+		c += chan / 2;
+		chan = chan % 2;
 	}
-	if (change % 1)
+	if (chan % 1)
 	{
-		c += change / 1;
+		c += chan / 1;
 	}
 	printf("%d\n", c);
 	return (0);
