@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 		c += chan / 2;
 		chan = chan % 2;
 	}
-	if (chan % 1)
+	if (chan % 1 >= 0)
 	{
 		c += chan / 1;
 	}
