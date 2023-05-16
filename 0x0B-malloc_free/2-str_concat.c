@@ -9,8 +9,8 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	char *point;
-	int size1, size1, size, i, j;
+	char *pointer;
+	int size1, size2, size, i, j;
 
 	size1 = size2 = 0;
 
@@ -32,7 +32,7 @@ char *str_concat(char *s1, char *s2)
 	if (pointer == NULL)
 		return (NULL);
 
-	for (i = 0, i < size1; i++)
+	for (i = 0; i < size1; i++)
 		pointer[i] = s1[i];
 	for (j = 0, j < size2; j++, i++)
 		pointer[i] = s2[j];
