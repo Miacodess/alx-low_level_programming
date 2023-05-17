@@ -1,2 +1,2 @@
-gcc -c *.c
+gcc -Wall -c *.c
 ar rcs libmy.a *.o
