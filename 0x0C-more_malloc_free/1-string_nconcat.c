@@ -15,11 +15,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (s1 == NULL)
 	{
-		s1 = " ";
+		s1 = "";
 	}
 	if (s2 == NULL)
 	{
-		s2 = " ";
+		s2 = "";
 	}
 	while (s1[sz1] != '\0')
 	{
@@ -45,7 +45,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	for (; i < (sz1 + n); i++)
 	{
-		p[i] = s2[i - size1];
+		p[i] = s2[i - sz1];
 	}
 	p[i] = '\0';
 	return (p);
