@@ -9,7 +9,7 @@
  */
 char *_setmem(char *s, char b, unsigned int n)
 {
-	unsignd int i;
+	unsigned int i;
 
 	for (i = 0; i < n; i++)
 	{
