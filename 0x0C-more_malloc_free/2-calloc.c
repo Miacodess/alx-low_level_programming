@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _setmwm - copy char
+ * _setmem - copy char
  * @s: string
  * @b: input
  * @n: bytes
